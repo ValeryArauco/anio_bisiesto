@@ -8,7 +8,7 @@ function bisiesto(anio) {
   if (anio % 4 == 0){
     return "Es un año bisiesto";
   }
-  return anio;
+  return "No es un año bisiesto";
 }
 
 export default bisiesto;
